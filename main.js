@@ -17,7 +17,7 @@ var minRadius = 2;
 var particlesArray = [];
 var noOfparticles = 20;
 var maxNoOfparticles = 400;
-var particlePathRadius = 200;
+var particlePathRadius = 50;
 var particleSpacing = 60;
 
 var particleSpeed = 50;
@@ -117,10 +117,10 @@ function animate(){
 // 	requestAnimationFrame(animate);
 	if (!isPaused){
 		//c.clearRect(0,0, innerWidth, innerHeight);
-		//for (var i = 0; i < particlesArray.length; i++){
-		//	particlesArray[i].update();
-		//}
-		particlesArray.forEach(particle => { particle.update()});
+		for (var i = 0; i < particlesArray.length; i++){
+			particlesArray[i].update();
+		}
+		//particlesArray.forEach(particle => { particle.update()});
 	}
 }
 
