@@ -1,2 +1,2 @@
-# paintDrop-app
-drawing with paint drop circles
+# bubbles-app
+Bubbles animation interactive
